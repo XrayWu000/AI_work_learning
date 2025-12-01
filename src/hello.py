@@ -26,3 +26,5 @@ print("sort by value:", sorted(dic.items(), key=lambda x: x[1]))
 print("get missing:", dic.get(99))
 # 5. get() 找不到 key，給預設值
 print("get missing with default:", dic.get(99, "not found"))
+for k,v in dic.items():
+    print(k,v)
