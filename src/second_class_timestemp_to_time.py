@@ -1,6 +1,5 @@
 import time
 
-timestemp = int(time.time())
 #timestemp = 1764000000
 #20251204 08:47:16
 #start 1970
@@ -36,6 +35,7 @@ SECONDS_PER_MINUTE = 60
 SECONDS_PER_HOUR = 60 * SECONDS_PER_MINUTE
 SECONDS_PER_DAY = 24 * SECONDS_PER_HOUR
 year = 1970
+timestemp = int(time.time()) + (8 * SECONDS_PER_HOUR)
 
 while True:
     if(timestemp >= 365 * SECONDS_PER_DAY):
