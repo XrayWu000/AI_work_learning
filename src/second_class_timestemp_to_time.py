@@ -1,4 +1,6 @@
-timestemp = 1764805953
+import time
+
+timestemp = int(time.time())
 #timestemp = 1764000000
 #20251204 08:47:16
 #start 1970
