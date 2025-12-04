@@ -3,11 +3,11 @@ import random
 #輸入，准許一模一樣、純字和純數
 while 1 :
     player = input("輸入: 0.剪刀 1.石頭 2.布\n")
-    if(player == "0.剪刀" or player == "剪刀" or player == "0"):
+    if player == "0.剪刀" or player == "剪刀" or player == "0":
         player = "0"
-    elif(player == "1.石頭" or player == "石頭" or player == "1"):
+    elif player == "1.石頭" or player == "石頭" or player == "1":
         player = '1'
-    elif(player == "2.布" or player == "布" or player == "2"):
+    elif player == "2.布" or player == "布" or player == "2":
         player = '2'
     else:
         print("錯誤輸入")
