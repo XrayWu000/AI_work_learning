@@ -4,3 +4,6 @@
 .vscode/
 .DS_Store
 Thumbs.db
+test.py
+*.csv
+*.xlsx
