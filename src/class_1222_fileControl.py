@@ -1,3 +1,4 @@
+
 f = open("a.txt", "w", encoding="utf-8")
 f.write("Hello\nWorld!")
 f.close()
