@@ -53,5 +53,5 @@ trains = content["data"]["DepartureTable"]["TrainItem"]
 
 df = pd.DataFrame(trains)
 #index = False 可以把索引欄位去掉
-df.to_csv("trains1.csv", index = False, encoding = "utf-8")
+df.to_csv("trains.csv", index = False, encoding = "utf-8")
 # df.to_excel("trains.xlsx", index = False)

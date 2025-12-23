@@ -22,4 +22,4 @@ danmus = content["data"]["danmu"]
 df = pd.DataFrame(danmus)
 #index = False 可以把索引欄位去掉
 df.to_csv("danmu.csv", encoding = "utf-8")
-df.to_excel("danmu.xlsx", index = False)
+# df.to_excel("danmu.xlsx", index = False)
