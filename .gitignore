@@ -7,3 +7,6 @@ Thumbs.db
 test.py
 *.csv
 *.xlsx
+*.jpg
+*.png
+*.jpeg
