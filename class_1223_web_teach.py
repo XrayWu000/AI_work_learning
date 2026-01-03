@@ -26,7 +26,7 @@ for i in range(20):
         name_href = name["href"]
         name_text = name.get_text()
 
-        rating = t.find("span", {"class": "c-rating__val"})
+        rating = t.find("span", {"class": "c-c-rating__val"})
         rating_text = rating.get_text()
 
         place = t.find("div", {"class": "list-rst__area-genre"})
